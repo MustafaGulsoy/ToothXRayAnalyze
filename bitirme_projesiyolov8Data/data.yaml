@@ -1,0 +1,17 @@
+path: C:\Projeler\Bussines\KardelenYazilim\Projeler\Python\TeetDetection\bitirme_projesiyolov8Data
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['dentin-curugu', 'dolgu', 'implant', 'kanal-tedavisi', 'kaplama', 'kirik', 'kok-enfeksiyonu', 'kopru']
+
+
+
+#roboflow:
+#  workspace: meraldanma
+#  project: bitirme_projesi-1o7fi
+#  version: 1
+#  license: CC BY 4.0
+#  url: https://universe.roboflow.com/meraldanma/bitirme_projesi-1o7fi/dataset/1
