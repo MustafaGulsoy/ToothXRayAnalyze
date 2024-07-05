@@ -1,4 +1,4 @@
-path: C:\Projeler\Bussines\KardelenYazilim\Projeler\Python\TeetDetection\bitirme_projesiyolov8Data
+path: C:\Users\Administrator\Projects\ToothXRayAnalyze\bitirme_projesiyolov8Data
 
 train: ../train/images
 val: ../valid/images
