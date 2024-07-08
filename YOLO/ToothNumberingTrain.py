@@ -10,5 +10,5 @@ results = model.train(data="../config.yaml",
                       imgsz=(1435, 768),
                       batch=32,
                       optimizer="Adam",
-                      lr=0.01
+                      lr0=0.01
                       )

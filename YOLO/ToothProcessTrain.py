@@ -15,5 +15,5 @@ results = model.train(data="../bitirme_projesiyolov8Data/data.yaml",
                       imgsz=(1435,768),  # Check if the image size is correct
                       batch=32,
                       optimizer="Adam",
-                      lr=0.01
+                      lr0=0.01
                       )
