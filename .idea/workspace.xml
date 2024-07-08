@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7548a2f-351a-4f6b-a175-93e4aaae0382" name="Changes" comment="Setting new train values">
+    <list default="true" id="a7548a2f-351a-4f6b-a175-93e4aaae0382" name="Changes" comment="Setting PATHS">
+      <change afterPath="$PROJECT_DIR$/YOLO/outputYolo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitirme_projesiyolov8Data/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bitirme_projesiyolov8Data/data.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YOLO/ToothNumberingTrain.py" beforeDir="false" afterPath="$PROJECT_DIR$/YOLO/ToothNumberingTrain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YOLO/ToothProcessTrain.py" beforeDir="false" afterPath="$PROJECT_DIR$/YOLO/ToothProcessTrain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YOLO/export.py" beforeDir="false" afterPath="$PROJECT_DIR$/YOLO/export.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YOLO/output.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YOLO/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/YOLO/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/detect/train26/weights/best.onnx" beforeDir="false" afterPath="$PROJECT_DIR$/runs/detect/train26/weights/best.onnx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +45,20 @@
   "keyToString": {
     "Python.ToothNumberingTrain.executor": "Run",
     "Python.ToothProcessTrain.executor": "Run",
+    "Python.export.executor": "Run",
+    "Python.predict.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Projeler/Bussines/KardelenYazilim/Projeler/Python/KardelenAI"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.ToothProcessTrain">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projeler\Bussines\KardelenYazilim\Projeler\Python\TeetDetection\YOLO" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.predict">
     <configuration name="ToothNumberingTrain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TeetDetection" />
       <option name="ENV_FILES" value="" />
@@ -90,8 +103,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="export" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TeetDetection" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/YOLO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YOLO/export.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TeetDetection" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/YOLO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YOLO/predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.predict" />
+        <item itemvalue="Python.export" />
         <item itemvalue="Python.ToothProcessTrain" />
         <item itemvalue="Python.ToothNumberingTrain" />
       </list>
@@ -129,12 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1720170083344</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Setting PATHS">
+      <option name="closed" value="true" />
+      <created>1720170331202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720170331202</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting new train values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting new train values" />
+    <MESSAGE value="Setting PATHS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting PATHS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -143,6 +211,11 @@
           <url>file://$PROJECT_DIR$/YOLO/ToothProcessTrain.py</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/YOLO/predict.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
