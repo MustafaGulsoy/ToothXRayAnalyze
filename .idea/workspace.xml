@@ -4,27 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7548a2f-351a-4f6b-a175-93e4aaae0382" name="Changes" comment="Setting PATHS">
-      <change afterPath="$PROJECT_DIR$/YOLO/outputYolo.jpg" afterDir="false" />
+    <list default="true" id="781d916b-6e31-4bcb-b56e-b663f6a6ee1f" name="Changes" comment="Changing learning rate">
+      <change afterPath="$PROJECT_DIR$/YOLO/ToothNumbering.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YOLO/testImages/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YOLO/testImages/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YOLO/yolov8s.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tooth Numbering data/train/labels.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tooth Numbering data/train/labels/1_jpg.rf.0b46451742fb5e6a0ac5d0303608972a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tooth Numbering data/train/labels/1_jpg.rf.0b46451742fb5e6a0ac5d0303608972a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tooth Numbering data/valid/labels.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/YOLO/ToothNumberingTrain.py" beforeDir="false" afterPath="$PROJECT_DIR$/YOLO/ToothNumberingTrain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YOLO/ToothProcessTrain.py" beforeDir="false" afterPath="$PROJECT_DIR$/YOLO/ToothProcessTrain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YOLO/export.py" beforeDir="false" afterPath="$PROJECT_DIR$/YOLO/export.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YOLO/output.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YOLO/outputYolo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/YOLO/outputYolo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YOLO/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/YOLO/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/detect/train26/weights/best.onnx" beforeDir="false" afterPath="$PROJECT_DIR$/runs/detect/train26/weights/best.onnx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitirme_projesiyolov8Data/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bitirme_projesiyolov8Data/data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitirme_projesiyolov8Data/train/labels.cache" beforeDir="false" afterPath="$PROJECT_DIR$/bitirme_projesiyolov8Data/train/labels.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitirme_projesiyolov8Data/valid/labels.cache" beforeDir="false" afterPath="$PROJECT_DIR$/bitirme_projesiyolov8Data/valid/labels.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,28 +37,31 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2imnXWuSsdvPan8Mm2jbbqOz7rK" />
+  <component name="ProjectId" id="2jQL7rmUJUwE2ARrsFulbYejzPv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.ToothNumberingTrain.executor": "Run",
-    "Python.ToothProcessTrain.executor": "Run",
-    "Python.export.executor": "Run",
-    "Python.predict.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Projeler/Bussines/KardelenYazilim/Projeler/Python/KardelenAI"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.ToothNumberingTrain.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ToothProcessTrain.executor&quot;: &quot;Run&quot;,
+    &quot;Python.export.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.predict.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projeler/Pyhton/ImageGenerator&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projeler\Bussines\KardelenYazilim\Projeler\Python\TeetDetection\YOLO" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projeler\Bussines\KardelenYazilim\Projeler\Python\TeetDetection\YOLO\testImages" />
       <recent name="C:\Projeler\Bussines\KardelenYazilim\Projeler\Python\TeetDetection\YOLO" />
     </key>
   </component>
@@ -150,9 +157,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.predict" />
-        <item itemvalue="Python.export" />
-        <item itemvalue="Python.ToothProcessTrain" />
         <item itemvalue="Python.ToothNumberingTrain" />
+        <item itemvalue="Python.ToothProcessTrain" />
+        <item itemvalue="Python.export" />
       </list>
     </recent_temporary>
   </component>
@@ -166,56 +173,30 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a7548a2f-351a-4f6b-a175-93e4aaae0382" name="Changes" comment="" />
-      <created>1720104662395</created>
+      <changelist id="781d916b-6e31-4bcb-b56e-b663f6a6ee1f" name="Changes" comment="Changing learning rate" />
+      <created>1721314189424</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1720104662395</updated>
+      <updated>1721314189424</updated>
     </task>
-    <task id="LOCAL-00001" summary="Setting new train values">
-      <option name="closed" value="true" />
-      <created>1720167406390</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1720167406390</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Setting new train values">
-      <option name="closed" value="true" />
-      <created>1720170083344</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1720170083344</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Setting PATHS">
-      <option name="closed" value="true" />
-      <created>1720170331202</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1720170331202</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setting new train values" />
-    <MESSAGE value="Setting PATHS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting PATHS" />
+    <MESSAGE value="Changing learning rate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing learning rate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YOLO/ToothProcessTrain.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/YOLO/export.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/YOLO/predict.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
+          <line>86</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

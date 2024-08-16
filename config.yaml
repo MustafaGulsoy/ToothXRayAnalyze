@@ -1,4 +1,4 @@
-path: C:\Users\Administrator\Projects\ToothXRayAnalyze\Tooth Numbering data
+path: C:\Projeler\Bussines\KardelenYazilim\Projeler\Python\TeetDetection\Tooth Numbering data
 train: train/images
 val: valid/images
 test: test/images
